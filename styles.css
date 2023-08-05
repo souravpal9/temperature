@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #484545;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #210f0f;
+    border-radius: 5px;
+    background-color: #589d35;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #0b0000;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    color: #0b0000;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    font-size: 16px;
+    color:black ;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #f1f2f4;
+    box-shadow: 0 0 5px #7fbfff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0966c3;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #53a5e6;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Background image */
+  body {
+    background-image: url('temperature-background.jpg');
+    background-size: cover;
+  }
+  
